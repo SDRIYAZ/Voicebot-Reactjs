@@ -1,0 +1,317 @@
+{
+    "intents": [
+      {
+        "name": "Greetings",
+        "utterances": [
+          {
+            "utterance": "Hi",
+            "response": "Hello! How can I assist you today?"
+          },
+          {
+            "utterance": "Hello",
+            "response": "Hi there! How can I help you?"
+          },
+          {
+            "utterance": "Hey there",
+            "response": "Hi! How can I assist you today?"
+          },
+          {
+            "utterance": "Good morning",
+            "response": "Good morning! How can I help you?"
+          },
+          {
+            "utterance": "Good afternoon",
+            "response": "Good afternoon! How can I assist you?"
+          },
+          {
+            "utterance": "Good evening",
+            "response": "Good evening! How can I help you?"
+          }
+        ]
+      },
+      {
+        "name": "CourseEnrollment",
+        "utterances": [
+          {
+            "utterance": "How can I enroll in a course?",
+            "response": "To enroll in a course, you can visit the student portal and follow the instructions for course registration."
+          },
+          {
+            "utterance": "What is the process for course enrollment?",
+            "response": "The process for course enrollment involves selecting the desired courses, checking for prerequisites, and adding them to your schedule through the online registration system."
+          },
+          {
+            "utterance": "Where can I find information about course registration?",
+            "response": "You can find detailed information about course registration on the university's website under the 'Registration' section."
+          },
+          {
+            "utterance": "Can you help me with course enrollment?",
+            "response": "Of course! I can guide you through the process of course enrollment. Just let me know if you have any specific questions or need assistance with any step."
+          }
+        ]
+      },
+      {
+        "name": "CourseInformation",
+        "utterances": [
+          {
+            "utterance": "Tell me more about the Computer Science course",
+            "response": "The Computer Science course focuses on programming languages, algorithms, data structures, and software development. It equips students with essential skills for a career in the field of technology."
+          },
+          {
+            "utterance": "What are the prerequisites for the Physics course?",
+            "response": "The prerequisites for the Physics course include completing the introductory Physics course and having a strong understanding of calculus and algebra."
+          },
+          {
+            "utterance": "Is the Biology course available in the upcoming semester?",
+            "response": "Yes, the Biology course will be offered in the upcoming semester. You can check the course catalog for more details on the specific sections and timings."
+          },
+          {
+            "utterance": "Can you provide details about the Math course?",
+            "response": "The Math course covers topics such as calculus, linear algebra, and differential equations. It is designed to develop students' mathematical reasoning and problem-solving skills."
+          }
+        ]
+      },
+      {
+        "name": "AssignmentSubmission",
+        "utterances": [
+          {
+            "utterance": "When is the assignment due for the Chemistry class?",
+            "response": "The assignment for the Chemistry class is due on [due date]. Please make sure to submit it before the deadline to avoid any penalties."
+          },
+          {
+            "utterance": "How do I submit my assignment for the English course?",
+            "response": "You can submit your assignment for the English course through the online learning management system. Look for the 'Assignments' section and follow the instructions provided there."
+          },
+          {
+            "utterance": "Is there an online platform for assignment submission?",
+            "response": "Yes, we have an online platform for assignment submission. You can access it through the student portal and submit your assignments electronically."
+          },
+          {
+            "utterance": "Can you guide me on assignment submission?",
+            "response": "Certainly! To submit your assignment, you need to log in to the student portal, navigate to the course page, and find the 'Assignments' section. There, you can upload your assignment following the provided instructions."
+          }
+        ]
+      },
+      {
+        "name": "ExaminationSchedule",
+        "utterances": [
+          {
+            "utterance": "What is the schedule for the final exams?",
+            "response": "The schedule for the final exams will be available closer to the exam period. Please keep an eye on the university's official communication channels for updates."
+          },
+          {
+            "utterance": "When will the midterm exams take place?",
+            "response": "The specific dates for the midterm exams vary by course. You can refer to the course syllabus or consult your professors for the exact schedule."
+          },
+          {
+            "utterance": "Can I get the timetable for the Physics exams?",
+            "response": "The timetable for the Physics exams can be found on the university's website under the 'Examination Schedule' section. Please check there for the detailed schedule."
+          },
+          {
+            "utterance": "Where can I find the examination schedule?",
+            "response": "The examination schedule is typically posted on the university's website. You can find it under the 'Examination' or 'Academic Calendar' section. Additionally, your professors may also provide you with the schedule for their respective courses."
+          }
+        ]
+      },
+      {
+        "name": "LibraryServices",
+        "utterances": [
+          {
+            "utterance": "What are the library opening hours?",
+            "response": "The library is open from [opening time] to [closing time] on weekdays, and [opening time] to [closing time] on weekends. However, please note that the hours may vary during holidays and breaks."
+          },
+          {
+            "utterance": "Can I borrow books over the weekend?",
+            "response": "Yes, you can borrow books from the library over the weekend. The lending period may vary depending on the type of material you are borrowing, so it's best to check the library's borrowing policy for more details."
+          },
+          {
+            "utterance": "Are there any e-books available in the library?",
+            "response": "Yes, the library provides access to a wide range of e-books. You can search for e-books through the library's online catalog and access them using your university credentials."
+          },
+          {
+            "utterance": "How can I access online journals from the library?",
+            "response": "To access online journals from the library, you can use the library's website or online databases. These resources are typically accessible through the university network or by logging in with your student credentials."
+          }
+          
+        ]
+      },
+      
+      {
+        "name": "StudentClubs",
+        "utterances": [
+          {
+            "utterance": "Tell me about the coding club on campus",
+            "response": "The coding club on campus is a student organization focused on promoting coding skills and fostering a collaborative environment for students interested in programming. They organize coding workshops, hackathons, and coding competitions throughout the year."
+          },
+          {
+            "utterance": "How can I join the music club?",
+            "response": "To join the music club, you can attend their general meetings or reach out to the club's executive members. They often hold auditions or welcome new members at the beginning of each semester."
+          },
+          {
+            "utterance": "Are there any sports clubs available for students?",
+            "response": "Yes, there are several sports clubs available for students. Some popular options include soccer, basketball, tennis, and swimming. You can find more information about these clubs at the campus recreation center or on the university's website."
+          },
+          {
+            "utterance": "Can you provide information about the debate club?",
+            "response": "The debate club is a student organization that focuses on improving public speaking and critical thinking skills. They organize regular debates, workshops, and participate in intercollegiate debate competitions. To join, you can attend their meetings or contact the club's leadership."
+          }
+        ]
+      },
+      {
+        "name": "Landing Page",
+        "utterances": [
+          {
+            "utterance": "Go to landing page",
+            "response": "Okay, I am taking you to the landing page.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "take me to landing page",
+            "response": "Okay, I am taking you to the landing page.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "move to landing page",
+            "response": "Okay, I am taking you to the landing page.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "roll back to landing page",
+            "response": "Okay, I am taking you to the landing page.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "move to landing page",
+            "response": "Okay, I am taking you to the landing page.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "what is today's quote",
+            "response": "Determination is the power that sees us through all our frustration and obstacles. It helps in building our willpower which is the very basis of success. ",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "Today's Inspirational quote",
+            "response": "Determination is the power that sees us through all our frustration and obstacles. It helps in building our willpower which is the very basis of success.",
+            "route": "landing-page"
+          },
+          {
+            "utterance": "say me today's quote",
+            "response": "Determination is the power that sees us through all our frustration and obstacles. It helps in building our willpower which is the very basis of success.",
+            "route": "landing-page"
+          }
+
+        ]
+      },
+      {
+        "name": "Motivational video",
+        "utterances": [
+          {
+            "utterance": "Play today's motivational video",
+            "response": "I am playing the video"
+          },
+          {
+            "utterance": "Play today's video",
+            "response": "I am playing  Motivational video"
+          }
+        ]
+      },
+      {
+        "name": "Features",
+        "utterances": [
+          {
+            "utterance": "what are platform features",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "Features of platform",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "What does the platform offers",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "Say me the features of platform",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "Say me the services of platform",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "tell me the services offered by the  platform",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          },
+          {
+            "utterance": "explain platform services",
+            "response": "Dashboard, Dynamic time table, Learning Networks, Little Masters, Video Based Dictionary, General Search."
+          }
+        ]
+      },
+      {
+        "name": "CareerServices",
+        "utterances": [
+          {
+            "utterance": "How can I get help with my resume?",
+            "response": "To get help with your resume, you can visit the career services office on campus. They offer resume review sessions and provide guidance on creating effective resumes tailored to your career goals."
+          },
+          {
+            "utterance": "What career workshops are available for students?",
+            "response": "The career services office organizes various workshops throughout the year, covering topics such as job search strategies, interview skills, networking, and professional development. Keep an eye on their website or bulletin board for upcoming workshops."
+          },
+          {
+            "utterance": "Can you assist me in finding internships?",
+            "response": "Certainly! The career services office can assist you in finding internships. They provide resources and guidance on searching for internships, preparing applications, and connecting with potential employers."
+          },
+          {
+            "utterance": "Where can I get information about job fairs?",
+            "response": "Information about job fairs can be obtained from the career services office or the university's events calendar. They often host job fairs on campus, where you can network with employers and explore job opportunities."
+          }
+        ]
+      },
+      {
+        "name": "CampusFacilities",
+        "utterances": [
+          {
+            "utterance": "Where is the gym located on campus?",
+            "response": "The gym is located in [building name] on campus. It offers various fitness facilities, including a weight room, cardio machines, group exercise studios, and indoor sports courts."
+          },
+          {
+            "utterance": "Are there any study rooms available in the library?",
+            "response": "Yes, the library provides study rooms that can be reserved by students. You can inquire at the library's front desk or check their website for the booking process and availability."
+          },
+          {
+            "utterance": "How can I access the computer lab?",
+            "response": "The computer lab is accessible to students during regular campus hours. It is located in [building name]. To access the lab, you will need to use your student ID card for entry."
+          },
+          {
+            "utterance": "Is there a cafeteria in the main building?",
+            "response": "Yes, there is a cafeteria located in the main building. It offers a variety of food options, including hot meals, sandwiches, salads, and beverages. You can visit the cafeteria during designated meal times."
+          }
+        ]
+      },
+      {
+        "name": "FeesandTuition",
+        "utterances": [
+          {
+            "utterance": "What are the tuition fees for the upcoming semester?",
+            "response": "The tuition fees for the upcoming semester can be found on the university's website or by contacting the student accounts office. The fees may vary depending on your program of study and credit hours."
+          },
+          {
+            "utterance": "How can I pay my tuition fees?",
+            "response": "There are several payment options available for tuition fees. You can pay online through the student portal using a credit card or electronic transfer. Alternatively, you can visit the student accounts office to make a payment in person."
+          },
+          {
+            "utterance": "Are there any scholarships or financial aid opportunities?",
+            "response": "Yes, the university offers scholarships and financial aid opportunities for eligible students. You can find more information about these programs on the university's website or by contacting the financial aid office."
+          },
+          {
+            "utterance": "Can I set up a payment plan for my tuition?",
+            "response": "Yes, you can set up a payment plan for your tuition fees. Contact the student accounts office to discuss the available options and establish a payment plan that suits your needs."
+          }
+        ]
+      }
+    ]
+  }
+  
